@@ -1,0 +1,1 @@
+<?php include_once './skins/default/header/header.tpl'; ?>  

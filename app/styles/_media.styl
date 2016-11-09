@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import "nib"
+@import "_vars.styl"
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+  .slider-center { height: 510px }
+  .slider-left, 
+  .slider-right { height: 455px }
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  .slider-center { height: 380px }
+  .slider-left, 
+  .slider-right { height: 325px }
+  }
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+  /*Disable Animation on Mobile Devices*/
+  .animated
+    transition-property: none !important
+    transform: none !important
+    animation: none !important
+  
+  /*other rules*/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+  /**/
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+  /**/
